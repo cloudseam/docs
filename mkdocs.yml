@@ -1,0 +1,85 @@
+# Project information
+site_name: CloudSeam 
+site_description: CloudSeam - Stich together cloud environments 
+site_author: CloudSeam Project
+site_url: https://cloudseam.github.io/
+
+# Repository
+#repo_name: cloudseam/docs
+#repo_url: https://github.com/cloudseam/docs
+#edit_uri: ""
+
+# edit_uri: edit/docs-revamp/docs/
+# edit_uri: blob/docs-revamp/docs/
+
+# remote_name: origin
+# remote_branch: gh-pages
+
+# Theme and overrides, i.e. language partial
+theme:
+  name: material
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  feature:
+    tabs: false
+  palette:
+    primary: blue
+    accent: indigo
+  favicon: images/favicon.ico
+  logo: images/logo.png
+
+# Copyright
+copyright: "Copyright &copy; 2019 CloudSeam Team"
+
+# Options
+extra:
+  search:
+    languages: "en"
+  social:
+    - type: globe
+      link: https://cloudseam.github.io/
+    - type: github-alt
+      link: https://github.com/cloudseam
+
+extra_css:
+  - stylesheets/extra.css
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  - Overview:
+      - Introduction: index.md
+      - Installation: installation.md
+  - Machine Definitions:
+      - 1.0 Specification: specs/version-1-0.md

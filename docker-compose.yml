@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  docs:
+    image: cfinfrastructure/mkdocs
+    command: bash -c "pip install -r requirements.txt && mkdocs serve -a 0.0.0.0:8000"
+    working_dir: /app
+    volumes:
+      - ./:/app
+    ports:
+      - 80:8000
+
