@@ -82,5 +82,7 @@ nav:
       - Introduction: index.md
       - Installation: installation.md
       - Configuration: configuration.md
-  - Machine Definitions:
+      - Message Structures: message-structures.md
+  - Machine Configuration:
+      - State Machine Overview: state-machine-overview.md
       - 1.0 Specification: specs/version-1-0.md
