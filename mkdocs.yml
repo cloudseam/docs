@@ -81,5 +81,6 @@ nav:
   - Overview:
       - Introduction: index.md
       - Installation: installation.md
+      - Configuration: configuration.md
   - Machine Definitions:
       - 1.0 Specification: specs/version-1-0.md
