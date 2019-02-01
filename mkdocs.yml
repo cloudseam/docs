@@ -5,8 +5,8 @@ site_author: CloudSeam Project
 site_url: https://cloudseam.github.io/
 
 # Repository
-#repo_name: cloudseam/docs
-#repo_url: https://github.com/cloudseam/docs
+repo_name: cloudseam/cloudseam
+repo_url: https://github.com/cloudseam/cloudseam
 #edit_uri: ""
 
 # edit_uri: edit/docs-revamp/docs/
