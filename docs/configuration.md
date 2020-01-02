@@ -24,7 +24,7 @@ Each of the following attributes are required in order to run the application in
 One of the following is **required** to be specified in order to persist state data.
 
 - `POSTGRES_CONNECTION_SECRET` - the name of an AWS Secrets Manager secret containing connection details. See [Database Configuration](#database-configuration) below for more information.
-- `DYNAMODB_TABLE` - the name of an existing DynamoDB table to store stacks. See additional details below regarding the structure of the table.
+- `DYNAMODB_TABLE` - the name of an existing DynamoDB table to store stacks. See [additional details below regarding the structure of the table](#persisting-using-dynamodb).
 
 
 ### Optional Attributes
